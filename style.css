@@ -80,7 +80,7 @@ button {
 .information {
     margin: 0px 200px;
     gap: 50px;
-    padding: 50px 0px;
+    padding: 100px 0px;
     }
 
 h2 {
@@ -121,4 +121,25 @@ h2 {
 .attribution {
     text-align: right;
     font-weight: bold;
+    }
+
+.call-to-action {
+    margin: 50px 200px;
+    padding: 50px 75px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.action-header {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+.action-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
     }
