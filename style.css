@@ -16,6 +16,10 @@ p {
     flex-direction: column;
     }
 
+.main {
+    margin: 0px 200px;
+    }
+
 header {
     display: flex;
     padding: 10px 200px;
@@ -67,4 +71,33 @@ button {
 .hero-button {
     background-color: #3882F6;
     margin: 10px 0px;
+    }
+
+.information,
+.image-caption-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+h2 {
+    margin: 50px;
+    }
+
+.image-caption-pair {
+    gap: 25px;
+    text-align: center;
+    }
+
+.blurbs {
+    display: flex;
+    max-width: 200px;
+    gap: 75px;
+    justify-content: center;
+    }
+
+.image-caption-pair img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
     }
