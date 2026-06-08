@@ -10,8 +10,12 @@ p {
     margin: 5px;
     }
 
-.hero {
+.hero,
+footer {
     background-color: #1F2937;
+    }
+
+.hero {
     display: flex;
     flex-direction: column;
     }
@@ -142,4 +146,10 @@ h2 {
     color: #E5E7EB;
     background-color: #3882F6;
     border: 2px solid #E5E7EB;
+    }
+
+footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
     }
